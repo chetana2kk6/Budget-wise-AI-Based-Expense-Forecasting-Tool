@@ -1,107 +1,126 @@
-BudgetWise – AI-Based Expense Forecasting Tool
+# BudgetWise – AI-Based Expense Forecasting Tool
 
-BudgetWise is a web-based personal finance management application that helps users track expenses, manage budgets, and analyze spending patterns through interactive dashboards and visual analytics. The system automatically categorizes transactions and provides insights to help users better understand their financial habits.
+BudgetWise is a web-based personal finance management application that helps users track daily expenses, manage monthly budgets, and analyze spending patterns using visual dashboards.
 
-The platform allows users to set monthly budgets, record daily expenses or income, and monitor financial progress in real time. With visual charts and categorized expense tracking, BudgetWise simplifies financial management and promotes better budgeting practices.
+The system allows users to record income and expenses, automatically categorize transactions, and view spending insights through charts. BudgetWise provides a simple and intuitive interface to help users understand their financial habits and maintain better budget control.
 
-Features
+---
 
-Secure user authentication using JWT
+## Features
 
-Monthly budget setup and management
+* User authentication and secure login
+* Set and manage monthly budgets
+* Add daily income and expense transactions
+* Automatic expense categorization
+* Dashboard with financial overview
+* Category-wise spending visualization (Pie Chart)
+* Expense history with month-based filtering
+* Real-time budget tracking and remaining balance
 
-Add and track daily expenses and income
+---
 
-Automatic expense categorization based on transaction notes
+## Tech Stack
 
-Dashboard with financial overview
+**Backend**
 
-Category-wise spending visualization using pie charts
+* Python
+* Flask
+* SQLAlchemy
+* Pandas
 
-Expense history with month-based filtering
+**Frontend**
 
-Real-time calculation of remaining budget
+* HTML
+* CSS
+* JavaScript
 
-Tech Stack
+**Database**
 
-Backend
+* SQLite
 
-Python
+**Data Visualization**
 
-Flask
+* Chart.js
 
-SQLAlchemy
+**Authentication**
 
-Pandas
+* Flask-JWT-Extended
 
-Frontend
+---
 
-HTML
+## Project Structure
 
-CSS
-
-JavaScript
-
-Database
-
-SQLite
-
-Visualization
-
-Chart.js
-
-Authentication
-
-Flask-JWT-Extended
-
-Project Structure
-BudgetWise
+```
+BudgetWise/
 │
 ├── app.py
 ├── models.py
 ├── categorizer.py
 │
-├── templates
+├── templates/
+│   ├── index.html
 │   ├── dashboard.html
 │   ├── history.html
-│   ├── index.html
-│   └── profile.html
+│   ├── edit_profile.html
+│   ├── profile.html
+│   └── settings.html
 │
-├── static
+├── static/
 │   ├── dashboard.css
 │   ├── dashboard.js
 │   └── icon.png
 │
-└── database.db
-Installation
+├── database.db
+└── README.md
+```
+
+---
+
+## Installation
 
 Clone the repository
 
+```
 git clone https://github.com/your-username/BudgetWise.git
+```
 
-Navigate to project folder
+Navigate to project directory
 
+```
 cd BudgetWise
+```
 
 Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
 Run the application
 
+```
 python app.py
+```
 
-Open in browser
+Open the browser and visit
 
+```
 http://127.0.0.1:5000
-Future Improvements
+```
 
-AI-based spending prediction
+---
 
-Expense trend analysis
+## Future Improvements
 
-Export reports as PDF or Excel
+* AI-based expense prediction
+* Monthly spending trend analysis
+* Export financial reports (PDF/Excel)
+* Mobile responsive interface
+* Smart budget recommendations
 
-Mobile responsive UI
+---
 
-Smart budgeting recommendations
+## Author
+
+Chetana Korivi
+B.Tech – Artificial Intelligence & Data Science
